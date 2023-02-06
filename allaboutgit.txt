@@ -1,0 +1,2 @@
+LOcal repository == the code or file which is created in our cumputer
+Remote repository == the code which is crated by us  in server of github
