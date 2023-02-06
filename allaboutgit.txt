@@ -6,3 +6,8 @@ Remote repository == the code which is crated by us  in server of github
  basically first if we create free fire version 1 then we u[date it to 2
  git will help us to see what changes we made by clicking on commit 
  we can also work on pfree fire verseion 1 if we dont like version2
+
+
+
+
+BRANCG if we in branch we will cam crate copyof master and cAN ADd features to copy
