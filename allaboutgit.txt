@@ -27,3 +27,111 @@ now we are going to show how to ignore ?
 6 now press git add.
 type git status
 
+
+
+
+HOW TO MERGEc ??????>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+aadmin@LAPTOP-GMBCHJT1 MINGW64 ~/Desktop/New folder (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/admin/Desktop/New folder/.git/
+
+admin@LAPTOP-GMBCHJT1 MINGW64 ~/Desktop/New folder (master)
+$ touch first.txt
+
+admin@LAPTOP-GMBCHJT1 MINGW64 ~/Desktop/New folder (master)
+$ git branch main
+fatal: not a valid object name: 'master'
+
+admin@LAPTOP-GMBCHJT1 MINGW64 ~/Desktop/New folder (master)
+$ git branch -M main
+
+admin@LAPTOP-GMBCHJT1 MINGW64 ~/Desktop/New folder (main)
+$ git add .
+
+admin@LAPTOP-GMBCHJT1 MINGW64 ~/Desktop/New folder (main)
+$ git commit -m "fjhbsghf"
+[main (root-commit) 9e5c810] fjhbsghf
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 first.txt
+
+admin@LAPTOP-GMBCHJT1 MINGW64 ~/Desktop/New folder (main)
+$ git log
+commit 9e5c81019c3db0e84fcce425cf38cfed8fcc87d9 (HEAD -> main)
+Author: KartikThakur2005 <kartikthakursaklani@gmail.com>
+Date:   Tue Feb 14 04:58:10 2023 +0530
+
+    fjhbsghf
+
+admin@LAPTOP-GMBCHJT1 MINGW64 ~/Desktop/New folder (main)
+$ git branch
+* main
+
+admin@LAPTOP-GMBCHJT1 MINGW64 ~/Desktop/New folder (main)
+$ git branch hi
+
+admin@LAPTOP-GMBCHJT1 MINGW64 ~/Desktop/New folder (main)
+$ git checkout hi
+Switched to branch 'hi'
+
+admin@LAPTOP-GMBCHJT1 MINGW64 ~/Desktop/New folder (hi)
+$ touch second.txt
+
+admin@LAPTOP-GMBCHJT1 MINGW64 ~/Desktop/New folder (hi)
+$ git add .
+
+admin@LAPTOP-GMBCHJT1 MINGW64 ~/Desktop/New folder (hi)
+$ git commit -m "gffhfg"
+[hi 7924514] gffhfg
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 second.txt
+
+admin@LAPTOP-GMBCHJT1 MINGW64 ~/Desktop/New folder (hi)
+$ git log
+commit 7924514ead5f509b7387063761069e316b2c9b05 (HEAD -> hi)
+Author: KartikThakur2005 <kartikthakursaklani@gmail.com>
+Date:   Tue Feb 14 04:59:29 2023 +0530
+
+    gffhfg
+
+commit 9e5c81019c3db0e84fcce425cf38cfed8fcc87d9 (main)
+Author: KartikThakur2005 <kartikthakursaklani@gmail.com>
+Date:   Tue Feb 14 04:58:10 2023 +0530
+
+    fjhbsghf
+
+admin@LAPTOP-GMBCHJT1 MINGW64 ~/Desktop/New folder (hi)
+$ git checkout main
+Switched to branch 'main'
+
+admin@LAPTOP-GMBCHJT1 MINGW64 ~/Desktop/New folder (main)
+$ git log
+commit 9e5c81019c3db0e84fcce425cf38cfed8fcc87d9 (HEAD -> main)
+Author: KartikThakur2005 <kartikthakursaklani@gmail.com>
+Date:   Tue Feb 14 04:58:10 2023 +0530
+
+    fjhbsghf
+
+admin@LAPTOP-GMBCHJT1 MINGW64 ~/Desktop/New folder (main)
+$ git merge hi
+Updating 9e5c810..7924514
+Fast-forward
+ second.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 second.txt
+
+admin@LAPTOP-GMBCHJT1 MINGW64 ~/Desktop/New folder (main)
+$ git log
+commit 7924514ead5f509b7387063761069e316b2c9b05 (HEAD -> main, hi)
+Author: KartikThakur2005 <kartikthakursaklani@gmail.com>
+Date:   Tue Feb 14 04:59:29 2023 +0530
+
+    gffhfg
+
+commit 9e5c81019c3db0e84fcce425cf38cfed8fcc87d9
+Author: KartikThakur2005 <kartikthakursaklani@gmail.com>
+Date:   Tue Feb 14 04:58:10 2023 +0530
+
+    fjhbsghf
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
