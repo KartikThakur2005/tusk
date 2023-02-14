@@ -15,3 +15,15 @@ after branching we will create a copy and then where we cah add some features if
 can also merge it with main
 
 while we make some changes in branch it will not be added in main branch
+
+
+IGNORING file in git bas
+now we are going to show how to ignore ?
+1 git init
+2 make new file [ nano file.txt] nano is also used to create and open file [ type ctrl x to save now press Y]
+3 now make another file nano seccond.txt
+4 now type nano .gitignore [if you type touch then type touch notepad .gitignore]
+5 type file name that you want to ignore press [ctrl x] and press y
+6 now press git add.
+type git status
+
