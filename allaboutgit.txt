@@ -27,3 +27,13 @@ now we are going to show how to ignore ?
 6 now press git add.
 type git status
 
+HOW TO REVERSE CHAGES AFTER COMITIG ?????
+git init
+touch file11.txt
+notepad file11.txt
+git status
+git add .
+git commit -m""
+git log -- oneline [this is for geting hash]
+git rever hash --no-edit
+git log
